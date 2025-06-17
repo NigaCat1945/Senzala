@@ -1,0 +1,108 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300;500;700&display=swap');
+
+  body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Raleway', sans-serif;
+    background: #faf6f0;
+    color: #4c4c4c;
+    line-height: 1.6;
+  }
+
+  header {
+    background: #e6d5c3;
+    padding: 40px 0;
+    text-align: center;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  }
+
+  header h1 {
+    font-size: 3rem;
+    margin: 0;
+    color: #3a2e2e;
+  }
+
+  header p {
+    font-size: 1.2rem;
+    color: #5c4b4b;
+  }
+
+  nav {
+    background-color: #f3e9dc;
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+  }
+
+  nav a {
+    color: #7c5e5e;
+    text-decoration: none;
+    margin: 0 15px;
+    font-weight: 500;
+    transition: color 0.3s;
+  }
+
+  nav a:hover {
+    color: #a27272;
+  }
+
+  .container {
+    max-width: 1000px;
+    margin: 40px auto;
+    padding: 0 20px;
+  }
+
+  .section {
+    margin-bottom: 60px;
+  }
+
+  .section h2 {
+    font-size: 2rem;
+    color: #7b5858;
+    border-left: 4px solid #d8b4a0;
+    padding-left: 10px;
+    margin-bottom: 15px;
+  }
+
+  .section p {
+    font-size: 1.1rem;
+  }
+
+  .playlist {
+    background: #fffaf5;
+    border: 1px solid #eaded3;
+    padding: 20px;
+    border-radius: 10px;
+  }
+
+  .playlist ul {
+    list-style-type: none;
+    padding-left: 0;
+  }
+
+  .playlist li {
+    margin-bottom: 10px;
+  }
+
+  footer {
+    text-align: center;
+    padding: 30px 0;
+    background-color: #e6d5c3;
+    color: #5e4c4c;
+  }
+
+  .image-banner {
+    width: 100%;
+    max-height: 300px;
+    object-fit: cover;
+    border-bottom: 5px solid #e4cfc0;
+  }
+
+  .quote {
+    font-style: italic;
+    text-align: center;
+    font-size: 1.4rem;
+    color: #9b7d7d;
+    margin: 40px 0;
+  }
